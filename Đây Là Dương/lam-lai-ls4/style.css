@@ -1,0 +1,112 @@
+*{
+ padding: 0px;
+ margin: 0px ;
+ box-sizing: border-box;
+}
+/* css phần menu */
+#haeder, .menu{
+    height:60px;
+    text-align: center; 
+}
+.menu__chinh{
+    display: flex;
+    list-style: none;
+    
+}
+.menu__heading{
+    width: calc(100%/7);
+    
+}
+.menu__link{
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    height: 60px;
+    font-weight: bold;
+    color: black;
+}
+.menu__link:hover{
+    color: rgb(47, 115, 189);
+    
+}
+.menu__img {
+    height: 60px;
+    width: 124.04px;
+}
+
+/* css phần banner */
+#container, .banner{
+    position:relative;
+    
+}
+.banner__desc{
+    position: absolute;
+    color: antiquewhite;
+    top: 50px;
+    width: 40%;
+}
+
+.banner, .banner__img{
+    display: block;
+    width: 100%;
+    height: auto ;
+}
+/* css cho phần main1 */
+.main1__title{
+    height: 60px;
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 10px;
+}
+.main1{
+    width: 100%;
+    display: flex;
+   height: 400px;  
+}
+.main1__content__left1, .main__content__left2, .main1__content__rigth1, .main__content__rigth2{
+    width: 100%;
+    height: 165px;} 
+.content__lift2__title img{
+    width: 65px;
+    height: 65px; }
+.content__lift1__title img{
+    width: 65px;
+        height: 65px;}
+.content__rigth1__title img{
+    width: 65px;
+    height: 65px;
+}
+.content__rigth2__title img{
+    width: 65px;
+    height: 65px;
+}
+/* css main1__content__left */
+.main1__content__left{
+    width: calc(100%/3);
+    height: 350px;
+}
+.content__lift1__title{
+    display: flex;
+}
+.content__lift1__title p{
+ 
+    padding-top: 10px;
+}
+.content__left1__text{
+    width: 350px;
+}
+/* css main1__content__center */
+.main1__content__center{
+    width: calc(100%/3);
+    
+}
+.content__center__img img{
+    width: 100%;
+    height: 400px;
+}
+/* css main1__content__rigth */
+.main1__content__rigth{
+    width: calc(100%/3);
+    height: 350px;
+   
+}
